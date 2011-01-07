@@ -1,0 +1,21 @@
+* html .showreel a{
+	background:url(none.gif);
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-showreel.png', sizingmethod='crop');
+}
+* html #nav li a{
+	background:url(none.gif);
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-nav.png', sizingmethod='crop');
+}
+* html #nav li a:hover,
+* html #nav li.active a{
+	background:url(none.gif);
+	filter:progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-nav-active.png', sizingmethod='crop');
+}
+.png{
+behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+this.src = "wp-content/themes/modproductions/images/none.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+);
+}
