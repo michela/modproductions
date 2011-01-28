@@ -11,11 +11,43 @@
 	background:url(none.gif);
 	filter:progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-nav-active.png', sizingmethod='crop');
 }
-.png{
+* html .png{
 behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
 this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
 this.src = "wp-content/themes/modproductions/images/none.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
 this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
 this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
 );
+}
+* html .ad .ad-t-l {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-banner-t-l.png', sizingmethod='crop');
+}
+* html .ad .ad-t-r {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-banner-t-r.png', sizingmethod='crop');
+}
+* html .ad .ad-b-l {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-banner-b-l.png', sizingmethod='crop');
+}
+* html .ad .ad-b-r {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-banner-b-r.png', sizingmethod='crop');
+}
+* html .title-section .photo-t-l {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-photo-t-l.png', sizingmethod='crop');
+}
+* html .title-section .photo-t-r {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-photo-t-r.png', sizingmethod='crop');
+}
+* html .title-section .photo-b-l {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-photo-b-l.png', sizingmethod='crop');
+}
+* html .title-section .photo-b-r {
+	background-position:-9999px -9999px;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='wp-content/themes/modproductions/images/bg-photo-b-r.png', sizingmethod='crop');
 }

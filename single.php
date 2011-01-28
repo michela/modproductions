@@ -43,7 +43,13 @@
 													<?php while (have_posts()) : the_post(); ?>
 														<div class="title-section">
 															<?php if (has_post_thumbnail()) : ?>
-																<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('author-photo'); ?></a>
+																<a class="photo" href="<?php the_permalink(); ?>">
+																	<?php the_post_thumbnail('author-photo'); ?>
+																	<span class="photo-t-l">&nbsp;</span>
+																	<span class="photo-t-r">&nbsp;</span>
+																	<span class="photo-b-l">&nbsp;</span>
+																	<span class="photo-b-r">&nbsp;</span>
+																</a>
 															<?php endif; ?>
 															<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 															 <?php

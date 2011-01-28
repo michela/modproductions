@@ -89,7 +89,20 @@ Template Name: Contact Template
                         <?php endif; ?>
 					</div>
 					<div id="sidebar">
-                        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Social Icon 1') ) : ?>
+						<?php if (have_posts()) : ?>
+							<?php while (have_posts()) : the_post(); ?>
+								<?php
+									$social_icon = get_post_meta($post->ID, 'social_icon', false);
+									if (!empty($social_icon)) {
+										echo '<ul class="social-networks another">';
+										foreach ($social_icon as $value) {
+											echo '<li>'.$value.'</li>';
+										}
+										echo '</ul>';
+									}
+									
+								?>
+							<?php endwhile; ?>
 						<?php endif; ?>
 						<?php include('left-sidebar.php'); ?>
                         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Tag Cloud Left Sidebar') ) : ?>

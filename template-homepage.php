@@ -33,8 +33,8 @@ Template Name: Home Template
 												?>
 												<div class="block-row <?php echo $_class; ?> hentry">
 													<?php if (has_post_thumbnail()) : ?>
-														<a href="<?php the_permalink(); ?>">
-															<?php the_post_thumbnail('production'); ?>
+														<a href="<?php the_permalink(); ?>" class="photo">
+															<?php the_post_thumbnail('production', array('class' => 'corner iradius4')); ?>
 														</a>
 													<?php endif; ?>
 													<h2 class="entry-title entry-summary"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
@@ -51,8 +51,23 @@ Template Name: Home Template
 						</div>
 					</div>
 					<div id="sidebar">
-						<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Social Icon 1') ) : ?>
-						<?php endif; ?>
+						<?php if (have_posts()) : ?>
+							<?php while (have_posts()) : the_post(); ?>
+								<?php
+									$social_icon = get_post_meta($post->ID, 'social_icon', false);
+									if (!empty($social_icon)) {
+										echo '<ul class="social-networks another">';
+										foreach ($social_icon as $value) {
+											echo '<li>'.$value.'</li>';
+										}
+										echo '</ul>';
+									}
+									
+								?>
+							<?php endwhile; ?>
+						<?php endif; ?>						
+						<?php //if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Social Icon 1') ) : ?>
+						<?php //endif; ?>
 						<?php include('left-sidebar.php'); ?>
                         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Tag Cloud Left Sidebar') ) : ?>
 						<?php endif; ?>

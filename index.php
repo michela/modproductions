@@ -31,8 +31,17 @@
 					</div>
 				</div>
 				<div id="sidebar">
-					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Social Icon 2') ) : ?>
-					<?php endif; ?>
+					<?php
+						$id_page = get_option('page_for_posts');
+						$social_icon = get_post_meta($id_page, 'social_icon', false);
+						if (!empty($social_icon)) {
+							echo '<ul class="social-networks">';
+							foreach ($social_icon as $value) {
+								echo '<li>'.$value.'</li>';
+							}
+							echo '</ul>';
+						}
+					?>
 					<?php include('left-sidebar.php'); ?>
 					<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Icons') ) : ?>
 					<?php endif; ?>					

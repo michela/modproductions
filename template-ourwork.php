@@ -15,7 +15,13 @@ Template Name: Our Work Template
                                                 <?php
                                                     $banner_link = get_post_meta($post->ID, 'banner_link', true);
                                                 ?>
-                                                <a href="<?php echo $banner_link; ?>"><?php the_post_thumbnail('banner'); ?></a>
+												<a href="<?php echo $banner_link; ?>">
+													<?php the_post_thumbnail('banner'); ?>
+													<span class="ad-t-l">&nbsp;</span>
+													<span class="ad-t-r">&nbsp;</span>
+													<span class="ad-b-l">&nbsp;</span>
+													<span class="ad-b-r">&nbsp;</span>
+												</a>
                                             </div>
                                          </div>
                                     </div>
