@@ -97,6 +97,7 @@ function theme_comment($comment, $args, $depth) {
 									<label for="comment">Comment</label>
 									<textarea name="comment" id="comment" cols="30" rows="10"></textarea>
 								</div>
+<!--
 								<div class="row">
 									<span>Notify me of follow  up comments via email:</span>
 									<input name="checkbox1" id="yes1" class="checkbox" type="checkbox" value="" />
@@ -111,6 +112,7 @@ function theme_comment($comment, $args, $depth) {
 									<input name="checkbox2" id="no2" class="checkbox" type="checkbox" value="" />
 									<label for="no2">NO</label>
 								</div>
+-->
 								<input type="submit" name="submit" id="submit" value="Submit" />
 								<?php
 									comment_id_fields();

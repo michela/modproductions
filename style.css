@@ -1284,4 +1284,6 @@ text-decoration: underline;
 	width:290px;
 
 }
-
+.info-row p {
+	margin:0;
+}
