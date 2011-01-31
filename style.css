@@ -1282,5 +1282,15 @@ text-decoration: underline;
 /*add2*/
 .tags-holder span.larger {
 	width:290px;
-
 }
+
+.comments-row {
+float: left;
+padding: 16px 0 0;
+width: 100%;
+}
+.comments-section {
+height:1%;
+overflow: hidden;
+}
+
