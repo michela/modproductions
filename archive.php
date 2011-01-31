@@ -38,7 +38,7 @@
 													<?php endif; ?>
 													<h2 class="entry-title entry-summary"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 													<?php the_excerpt(); ?>
-													<a class="more" href="<?php the_permalink(); ?>">readmore</a>
+													<a class="more" href="<?php the_permalink(); ?>">read more</a>
 												</div>
 												<?php $num++; ?>
 											<?php endwhile; ?>

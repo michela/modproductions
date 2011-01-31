@@ -192,7 +192,10 @@ a:hover{text-decoration:underline;}
 	color:#84219d;
 	font:20px/23px Helvetica, Arial, sans-serif;
 }
-.info-row p{margin:0;}
+.info-row p{
+    display: block;
+    margin: 1em 0;
+}
 .intro-block .more{
 	margin-top:0;
 }
