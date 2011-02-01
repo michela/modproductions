@@ -2,7 +2,7 @@
 Theme Name: MOD Productions
 Description: description
 Author: admin
-Version: 0.1
+Version: 0.2
 */
 input[type=text], input[type=password], input[type=file], textarea{-webkit-appearance:none;}
 html{
@@ -319,6 +319,7 @@ a:hover{text-decoration:underline;}
 .social-networks li a.virb{background:url(images/ico-virb.gif) no-repeat;}
 .social-networks li a.facebook{background:url(images/ico-facebook.gif) no-repeat;}
 .social-networks li a.myspace{background:url(images/ico-myspace.gif) no-repeat;}
+.social-networks li a.twitter{background:url(images/ico-twitter.gif) no-repeat;}
 .social-networks li a.linkedin{background:url(images/ico-linkedin.gif) no-repeat;}
 .social-networks li a.youtube{background:url(images/ico-youtube.gif) no-repeat;}
 .row-section .more{margin:0 1px 0 auto;}
@@ -359,6 +360,8 @@ a:hover{text-decoration:underline;}
 .social-holder .social-networks li a.facebook{background:url(images/ico-facebook-large.gif) no-repeat;}
 #sidebar .social-networks li a.myspace,
 .social-holder .social-networks li a.myspace{background:url(images/ico-myspace-large.gif) no-repeat;}
+#sidebar .social-networks li a.twitter,
+.social-holder .social-networks li a.twitter{background:url(images/ico-twitter-large.gif) no-repeat;}
 #sidebar .social-networks li a.linkedin,
 .social-holder .social-networks li a.linkedin{background:url(images/ico-linkedin-large.gif) no-repeat;}
 #sidebar .social-networks li a.youtube,
