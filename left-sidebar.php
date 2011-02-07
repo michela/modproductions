@@ -1,6 +1,10 @@
 <?php include('searchform.php'); ?>
 <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Twitter Sidebar') ) : ?>
 <?php endif; ?>
+<div class="box">    <div class="holder">        <div class="frame">
+<h2><span>FACEBOOK</span> UPDATES</h2>
+<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fmodproductions&amp;width=182&amp;colorscheme=light&amp;show_faces=true&amp;stream=false&amp;header=false&amp;height=302" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:182; height:302px;" width=182 height=302 allowTransparency="true"></iframe>
+</div></div></div>
 <div class="box">
     <div class="holder">
         <div class="frame">
