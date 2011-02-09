@@ -87,7 +87,7 @@ a:hover{text-decoration:underline;}
 .header-section blockquote span{color:#9329ad;}
 .header-section blockquote q{
 	quotes: none;
-	font:italic bold 35px/36px "Times New Roman", Times, serif;
+	font:italic bold 30px/30px Helvetica,Arial,sans-serif;
 	display:block;
 	margin:0 0 18px;
 }
@@ -97,7 +97,7 @@ a:hover{text-decoration:underline;}
 	display:block;
 	text-align:right;
 	color:#434243;
-	font:18px/21px "Courier New", Courier, serif;
+	font:18px/21px Helvetica,Arial,sans-serif;
 }
 .video-section{
 	float:right;
