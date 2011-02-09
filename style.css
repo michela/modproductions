@@ -123,7 +123,7 @@ a:hover{text-decoration:underline;}
 	height:54px;
 	text-indent:-9999px;
 	overflow:hidden;
-	cursor:pointer;
+	cursor:default;
 	margin:1px auto 0;
 }
 #nav{
