@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/corner.js"></script>
 	<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url'); ?>/css/ie.css" /><![endif]-->
 	<!--[if lt IE 7]><script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/png-fix.js"></script><![endif]-->
-<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="telephone=no"/>
 </head>
 	<body>
 		<div id="wrapper" class="vcard">

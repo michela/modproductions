@@ -128,7 +128,7 @@ a.email  {
 	height:54px;
 	text-indent:-9999px;
 	overflow:hidden;
-	cursor:default;
+	cursor:pointer;
 	margin:1px auto 0;
 }
 #nav{

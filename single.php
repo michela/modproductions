@@ -73,15 +73,17 @@
 							<?php endif; ?>
 						</div>
 					</div>
-					<div id="sidebar">
-						<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Social Icon 2') ) : ?>
-						<?php endif; ?>
-						<?php include('left-sidebar.php'); ?>
-						<ul class="links">
-							<li><a class="rss" href="/rss/%5Bsite_url%5D/?feed=rss2">RSS</a></li>
-							<li><a class="podcast" href="http://modfilms.jellycast.com/podcast/feed/71">Podcast</a></li>
-						</ul>
-					</div>
+                                        <div id="sidebar">
+                                                <?php if ( !function_exists('dyn
+amic_sidebar') || !dynamic_sidebar('Social Icon 2') ) : ?>
+                                                <?php endif; ?>
+                                                <?php include('left-sidebar.php'); ?>
+                                                <ul class="links">
+                                                        <li><a class="rss" href="/rss/%5Bsite_url%5D/?feed=rss2">RSS</a></li>
+                                                        <li><a class="podcast" href="http://modfilms.jellycast.com/podcast/feed/71">Podcast</a></li>
+                                                </ul>
+                                        </div>
+					
 				</div>
 			</div>
 		</div>

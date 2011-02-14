@@ -38,8 +38,8 @@ Template Name: Our Work Template
                         <?php endwhile; ?>
                     <?php endif; ?>
                     <?php
-                        $cat_name = 'PRODUCTS AND SERVICES';
-                        $cat_id = get_cat_ID($cat_name);
+                        // Offerings category hardcoded
+                        $cat_id = 21;
                         $query_posts = query_posts(array(
                             'post_type' => 'post',
                             'post_status' => 'publish',
@@ -56,7 +56,7 @@ Template Name: Our Work Template
 					<div class="block">
 						<div class="holder">
 							<div class="frame">
-								<h2>PRODUCTS AND SERVICES</h2>
+								<h2>PRODUCTS & SERVICES</h2>
 								<div class="news-block hfeed">
 									<?php
                                         query_posts(array(

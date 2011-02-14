@@ -10,7 +10,7 @@ Template Name: Home Template
 							<div class="holder">
 								<div class="frame">										
 										<h1>FEATURED PROJECTS</h1>
-                                        <?php                                            
+                                        <?php                                            			            // FEATURED category id hardcoded
                                             $cat_name_id = 28;
                                             query_posts(array(
                                                 'showposts' => -1,

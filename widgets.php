@@ -166,7 +166,7 @@ class Custom_WP_Widget_Tag_Cloud extends WP_Widget {
 			echo $before_title . $title . $after_title;
 		}
 		//echo '<ul class="tags">';
-		custom_wp_tag_cloud( apply_filters('widget_tag_cloud_args', array('taxonomy' => $current_taxonomy, 'format' => 'list') ) );
+		custom_wp_tag_cloud( apply_filters('widget_tag_cloud_args', array('taxonomy' => $current_taxonomy, 'number' => 20, 'format' => 'list') ) );
 		//echo "</ul>";
 		echo $after_widget;
 	}
