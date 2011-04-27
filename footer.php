@@ -1,5 +1,5 @@
         <div id="footer">
-			<p>Copyright MOD Productions 2011. All Rights Reserved.</p>
+			<p>Copyright MOD Productions 2011. All Rights Reserved. ABN 91 930 196 549</p>
 		</div>
         <?php wp_footer(); ?>
 <script type="text/javascript">

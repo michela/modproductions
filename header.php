@@ -23,8 +23,7 @@
 							</strong>
 							<blockquote>
 								<p>
-									<q>Our passion is turning ideas into <span>creative digital products, services and experiences!</span></q>
-									<cite>Team MOD Productions</cite>
+									<q>Media and technology for <span>arts and entertainment</span></q>
 								</p>
 							</blockquote>
 						</div>
