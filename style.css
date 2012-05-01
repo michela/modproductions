@@ -95,6 +95,12 @@ a:hover{text-decoration:underline;}
 	display:block;
 	margin:0 0 18px;
 }
+.header-section blockquote q2{
+	quotes: none;
+	font:italic bold 20px/20px Helvetica,Arial,sans-serif;
+	display:block;
+	margin:0 0 18px;
+}
 .header-section blockquote q:before,
 .header-section blockquote q:after{content:"";}
 .header-section blockquote cite{
@@ -1317,4 +1323,5 @@ overflow: hidden;
 
 a.twitter_title_link { color: #84219D; }
 a.twitter-link { color: #84219D; }
-
+ul.twitter { list-style: none; padding:0; margin: 0;}
+li.twitter-item { list-style: none;}

@@ -22,10 +22,9 @@
 								<a class="fn org url" rel="index" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
 							</strong>
 							<blockquote>
-								<p>
-									<q>Media and technology for <span>arts and entertainment</span></q>
-								</p>
-							</blockquote>
+			<q>Media magic<span> for events and entertainment</span></q>
+			<q2>Contact us on <span>+612 8003 4811</span> or at <span>reception@modprods.com</span></q2>
+			</p></blockquote>
 						</div>
 						<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Video') ) : ?>
 						<?php endif; ?>
