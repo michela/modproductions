@@ -1,14 +1,17 @@
 /*
 Theme Name: MOD Productions
+/
+/
 Description: description
 Author: admin
-Version: 0.2
+Version: 0.3
 */
 input[type=text], input[type=password], input[type=file], textarea{-webkit-appearance:none;}
 html{
 	background:#424343 url(images/bg-body-below.jpg) repeat-x;
 	width:100%;
 }
+
 body{
 	margin:0;
 	font:12px Helvetica, Arial, sans-serif;
@@ -1310,5 +1313,8 @@ overflow: hidden;
      padding-top: 45px;
      background-repeat: no-repeat;
      color: #84219D;
-)
+}
+
+a.twitter_title_link { color: #84219D; }
+a.twitter-link { color: #84219D; }
 
