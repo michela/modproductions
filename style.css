@@ -1322,6 +1322,6 @@ overflow: hidden;
 }
 
 a.twitter_title_link { color: #84219D; }
-a.twitter-link { color: #84219D; }
+a.twitter-link, a.twitter-user { color: #84219D; }
 ul.twitter { list-style: none; padding:0; margin: 0;}
 li.twitter-item { list-style: none;}
